@@ -28,17 +28,27 @@ puts states["IA"]
 ```
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
+
 ```ruby
 # print all keys
+# multiple ways to code it, below are 2 options.
 states.each do |abbrev, full|
   puts "#{abbrev}"
 end
+
+# More efficient option
+puts states.keys
 ```
+
 ```ruby
 # print all values
+# multiple ways to code it, below are 2 options.
 states.each do |abbrev, full|
   puts "#{full}"
 end
+
+# More efficient option
+puts states.values
 ```
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
