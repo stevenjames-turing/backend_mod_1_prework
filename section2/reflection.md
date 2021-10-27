@@ -6,7 +6,7 @@
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
-  * Conditional statements are used to evaluate true or false. Examples would inlude operators such as `==`,`>`,`<`,`<=`,`>=`
+  * Conditional statements are used to evaluate true or false. Examples would include operators such as `==`,`>`,`<`,`<=`,`>=`
 
 1. Why might you want to use an if-statement?
   * You would use an in/then statement if there could be multiple responses depending on a variable being input.
@@ -39,7 +39,7 @@
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-  * A method a block of code that can be used to execute a piece of code many times without the need to write out each line by using different parameters.
+  * A method is a block of code that can be used to execute a piece of code many times without the need to write out each line by using different parameters.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 ```ruby
@@ -65,4 +65,4 @@ hello_someone("Steven")
 ```
 
 1. What questions do you have about methods in Ruby?
-  * Working through these really has helped me, but I'm still not 100% confident that I fully understand methods without referencing other materials. But, I'll keep working and I think the more context we build around methods, the better I will understand them. 
+  * Working through these really has helped me, but I'm still not 100% confident that I fully understand methods without referencing other materials. But, I'll keep working and I think the more context we build around methods, the better I will understand them.

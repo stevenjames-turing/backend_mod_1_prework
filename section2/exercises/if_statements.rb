@@ -27,7 +27,6 @@
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
-
 ##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
@@ -41,6 +40,9 @@
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
+# I thought about changing the gets.to_i to gets.to_f in order to allow people to give a float
+# as an answer, but then I remembered that you can't have a portion of a quarter
+# (I know... I know... people could have a dime), but those aren't quarters...
 
 puts "How many quarters do you have?"
 
