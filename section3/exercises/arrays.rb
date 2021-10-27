@@ -15,11 +15,11 @@
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
 animals = ["Zebra", "Giraffe", "Elephant"];
-print animals
+puts animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
-print animals[0]
+puts animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
@@ -33,13 +33,16 @@ puts animals
 
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-animals[3] = "Bear"
+
+  # Assigned to be in the 3rd position, but at index 2.
+animals[2] = "Bear"
 puts animals
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
-# Not sure if this was a mistake, but we reassigned Elephant in this exercise to be Gorilla.
-# However, if we had not re-assigned it to be Gorilla, then below is the code that would print
-# Elephant from the array. It now prints "Gorilla" instead.
+
+  # Not sure if this was a mistake, but we reassigned Elephant in this exercise to be Gorilla.
+  # However, if we had not re-assigned it to be Gorilla, then below is the code that would print
+  # Elephant from the array. It now prints "Gorilla" instead.
 
 puts "#{animals[2]}"
 
@@ -98,7 +101,7 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
 # may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
-# All of the below examples are from a single application called Castbox (app I use for listening to podcasts).
-# 1: On the main page there are a list of "featured" Podcasts
-# 2: In my library, it shows a list of the Podcasts in which I am subscribed.
-# 3: When on the page for your desired podcast, there is a list of every available episode. 
+  # All of the below examples are from a single application called Castbox (app I use for listening to podcasts).
+  # 1: On the main page there are a list of "featured" Podcasts
+  # 2: In my library, it shows a list of the Podcasts in which I am subscribed.
+  # 3: When on the page for your desired podcast, there is a list of every available episode.

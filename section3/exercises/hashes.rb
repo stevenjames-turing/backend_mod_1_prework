@@ -8,24 +8,43 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {lions: 4, tigers: 5, bears: 6}
-p zoo
+zoo = {
+  lions: 4,
+  tigers: 5,
+  bears: 6
+}
+puts zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
-zoo.each do |animal, count|
-  puts "#{animal}"
-end
+
+# Original code commented out below:
+# zoo.each do |animal, count|
+#   puts "#{animal}"
+# end
+
+# Refactored below:
+puts zoo.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
-zoo.each do |animal, count|
-  puts "#{count}"
-end
+
+# Original code commented out below:
+# zoo.each do |animal, count|
+#   puts "#{count}"
+# end
+
+# Refactored below:
+puts zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-puts zoo[:lions]
+
+# Original code commented out below:
+# puts zoo[:lions]
+
+# Refactored below:
+puts zoo.values[0]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
@@ -43,12 +62,12 @@ puts zoo
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 email = {
-  sender: "Turing",
+  sender: "admissions@turing.edu",
   subject: "Mod 1 Start Date",
   has_attachments: false,
   has_images: true,
   recipient_count: 1,
-  spam: false
+  is_spam: false
 }
 
 # Write code that prints your email hash to the terminal.
@@ -56,15 +75,25 @@ puts email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
-email.each do |info, var2|
-  puts "#{info}"
-end
+
+# # Original code commented out below:
+# email.each do |info, var2|
+#   puts "#{info}"
+# end
+
+# Refactored below:
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
-email.each do |info, var2|
-  puts "#{var2}"
-end
+
+# Original code commented out below:
+# email.each do |info, var2|
+#   puts "#{var2}"
+# end
+
+# Refactored below:
+puts email.values
 
 #-------------------
 # Part 3: Many Emails - OPTIONAL EXTENSION
@@ -117,28 +146,28 @@ puts posts[0]
 
 email = [
   {
-    sender: "Turing",
+    sender: "admissions@turing.edu",
     subject: "Mod 1 Start Date",
     has_attachments: false,
     has_images: true,
     recipient_count: 1,
-    spam: false
+    is_spam: false
   },
   {
-    sender: "Sallie Mae",
+    sender: "salliemae@email.salliemae.com",
     subject: "Info regarding your loan",
     has_attachments: true,
     has_images: false,
     recipient_count: 1,
-    spam: false
-  }, 
+    is_spam: false
+  },
   {
-    sender: "Strava",
+    sender: "no-reply@strava.com",
     subject: "Kudos on your run",
     has_attachments: false,
     has_images: false,
     recipient_count: 1,
-    spam: false
+    is_spam: false
   }
 ]
 
