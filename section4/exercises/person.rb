@@ -13,7 +13,7 @@ class Person
     @is_funny = true
   end
 
-  def joke
+  def tell_joke
     "Want to hear a funny joke? Knock knock!"
   end
 
@@ -27,5 +27,5 @@ joe = Person.new("Shmoe", "Joe")
 
 
 puts joe.is_funny
-puts joe.joke
+puts joe.tell_joke
 puts joe.laugh
