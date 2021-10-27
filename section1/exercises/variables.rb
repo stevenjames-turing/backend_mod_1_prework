@@ -45,7 +45,7 @@ puts "#{is_hungry}"
 # How did you decide to use the data type you did for each of the three variables above?
 # Explain.
 # For first_name, I needed the result to appear as a string so I put the response in "". For number_of_pets, I wanted
-# the response to be a interger so it could be reassigned in the future if I ever increased or decreased my pet count.
+# the response to be a integer so it could be reassigned in the future if I ever increased or decreased my pet count.
 # For is_hungry I chose to do a true/false statement. I am very hungry right now, but in the future I could always
 # change the response to false with a "!" before the variable such as: puts "#{!is_hungry}"
 
@@ -62,8 +62,8 @@ puts number_of_pets
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
-healthy_snacks = 6;
-junk_food_snacks = 8;
+healthy_snacks = 6
+junk_food_snacks = 8
 puts healthy_snacks + junk_food_snacks
 
 
@@ -73,3 +73,4 @@ puts healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
+  # Everything looks great to me! 
